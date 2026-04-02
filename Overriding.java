@@ -8,7 +8,7 @@ class A{
         return a+b;
     }
 }
-class B extends A{
+class B extends Dynamic{
     //it has no methods so calls from parent
     //now we do overriding to print B with same show()
     // public void show(){
